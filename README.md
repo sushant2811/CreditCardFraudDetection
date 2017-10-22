@@ -13,7 +13,7 @@ number of fraud cases (~500). That gives us a roughly 50-50 ratio to work with.
 We split the data into training set (70 % of 1000) and the test set. 
 We train a logistic regression model on the training data,
 choosing the regulaization paramter C through KFold cross-validation. 
-This parameter is chosen to get a high value for recall (we don't want to miss) 
+This parameter is chosen to get a high value for recall (we don't want to miss 
 flagging the fradulent transaction) while at the same time making sure that 
 F1 score is not too low. 
 
