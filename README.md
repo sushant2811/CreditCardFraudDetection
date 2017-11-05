@@ -11,7 +11,7 @@ resampling (specifically undersampling)
 method. The parameters of the models are chosen through KFold cross validation to 
 give a high recall accuracy (we want to minimize false negatives).
 
-For unseen data, logistic regression and SVM both give over 90% recall accuracy, 
+For unseen data, logistic regression and SVM both give about 93% recall accuracy, 
 with SVM doing slightly better.
 
 ROC analysis on the test sample gives area under curve = 0.97. The effect of changing 
